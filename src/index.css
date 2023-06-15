@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Orbitron', sans-serif;
+    /* identical to box height, or 121% */
+
+    box-sizing: border-box;
+    text-transform: uppercase;
+}

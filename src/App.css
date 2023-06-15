@@ -1,0 +1,29 @@
+.radial {
+  background-image: radial-gradient(circle, #00FFE6, #00FFE6);
+  background: #00FFE6;
+  mix-blend-mode: hard-light;
+  filter: blur(48px);
+}
+
+.radial-2 {
+  background: #00FFE6;
+  mix-blend-mode: overlay;
+  filter: blur(45px);
+  width: 462px;
+  height: 462px;
+  visibility: hidden;
+}
+
+@media(min-width: 768px) {
+  .radial-2 {
+    visibility: visible;
+  }
+}
+
+.gray-text {
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.gray-bg {
+  background-color: rgba(255, 255, 255, 0.3)
+}
